@@ -1,0 +1,7 @@
+from unittest import TestCase
+
+import network_modularity
+
+class TestModularity(TestCase):
+    def test_is_string(self):
+        pass

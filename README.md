@@ -36,7 +36,7 @@ optional arguments:
 ```
 
 ### Tests
-
+* pip install -r requirements.txt
 * make test
 
 ###

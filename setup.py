@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name="network_modularity",
       version=0.1,
-      description="Returns common modularity scores given an edgelist",
+      description="Returns common modularity scores given an edgelist in Ncol format",
       url="https://github.com/nirtiac/network_modularity",
       author="Caitrin  Armstrong",
       author_email="caitrin.armstrong@mail.mcgill.ca",
@@ -14,6 +14,4 @@ setup(name="network_modularity",
           'python-igraph',
           'argparse'
       ],
-      test_suite='nose.collector',
-      tests_require=['nose'],
       zip_safe=False)

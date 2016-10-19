@@ -45,7 +45,7 @@ def process_args(args, out=sys.stdout):
     
 def create_parser():    
     parser = argparse.ArgumentParser(description="Given an edge list, returns modularity as calculated by infomap, multilevel and label propogation algorithms. Or, specifiy a single option")
-    parser.add_argument("file_path", help="CSV edge list. One line per edge, include weights in third column if using -d option")
+    parser.add_argument("file_path", help="Ncol format. One line per edge, space or tab separated, include weights in third column if using -d option")
     parser.add_argument("-i", "--infomap", help="calculate modularity using the infomap method of Rosvall and Bergstrom", action="store_true")
     parser.add_argument("-m", "--multilevel", help="calculate modularity using the multilevel algorithm of Blondel et al.", action="store_true")
     parser.add_argument("-l", "--labelpropagation", help="calculate modularity using the label propagation method of Raghavan et al.", action="store_true")

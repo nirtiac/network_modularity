@@ -20,7 +20,7 @@ Given an edge list, returns modularity as calculated by infomap, multilevel
 and label propogation algorithms. Or, specifiy a single option
 
 positional arguments:
-  file_path             CSV edge list. One line per edge, include weights in
+  file_path             Ncol format. One line per edge, space or tab separated, include weights in
                         third column if using -d option
 
 optional arguments:

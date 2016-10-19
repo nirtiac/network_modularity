@@ -1,4 +1,4 @@
-### NM [![Build Status](https://travis-ci.org/nirtiac/network_modularity.svg?branch=master)](https://travis-ci.org/nirtiac/network_modularity)
+### network_modularity [![Build Status](https://travis-ci.org/nirtiac/network_modularity.svg?branch=master)](https://travis-ci.org/nirtiac/network_modularity)
 
 This package provides quick access to the modularity scores returned by the infomap, multilevel and label-propagation community detection methods as implemented in [iGraph](http://igraph.org/python/)
 
@@ -14,7 +14,7 @@ Note that the python-igraph dependency may conflict with an different older igra
 See full options available : `nm --help`
 
 ```sh
-usage: nm [-h] [-i] [-m] [-l] [-d] file_path
+usage: network_modularity [-h] [-i] [-m] [-l] [-d] file_path
 
 Given an edge list, returns modularity as calculated by infomap, multilevel
 and label propogation algorithms. Or, specifiy a single option
